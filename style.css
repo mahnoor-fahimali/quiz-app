@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+}
+
+.quiz-card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 16px;
+}
+
+.option-btn {
+    text-align: left;
+    padding: 12px;
+}
+
+.option-btn.correct {
+    background: #198754;
+    color: #fff;
+}
+
+.option-btn.wrong {
+    background: #dc3545;
+    color: #fff;
+}
